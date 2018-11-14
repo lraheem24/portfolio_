@@ -1,0 +1,62 @@
+html,
+.mainBody {
+    background-color: #826D77;
+    transition: background-color 300ms ease-in-out;
+}
+
+@media (min-width: 500px) {
+    html,
+    .mainBody {
+        background-color: black;
+    }
+}
+
+@media (min-height: 500px) {
+    html,
+    .mainBody {
+        background-color: gray;
+    }
+}
+
+.mainBody {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.container {
+    background-color: black;
+    color: rgb(132, 0, 255);
+    width: 100%;
+}
+
+#ContactForm {
+    background-color: rgb(132, 0, 255);
+    color: rgb(24, 37, 26);
+    width: 100%;
+}
+
+.MainH {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+}
+
+.SecondaryH {
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    margin: 33%;
+}
+
+p {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 24px;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    /* Set the fixed height of the footer here */
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: grey;
+}
